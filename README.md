@@ -6,7 +6,7 @@ I also used [Bootstrap React](https://react-bootstrap.github.io/) for app UI.
 
 The app lets you generate your CV, and you can add multiple Practical Experiences.
 
-# LIVE page: https://polhek.github.io/CV-Generator/
+# LIVE page: https://polhek.github.io/cv-generator-react-functional
 
 ## Still to do:
 
