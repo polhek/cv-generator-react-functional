@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/cv-generator-react-functional/static/js/main.487eb125.chunk.js",
+    "main.js.map": "/cv-generator-react-functional/static/js/main.487eb125.chunk.js.map",
+    "runtime-main.js": "/cv-generator-react-functional/static/js/runtime-main.4ece4628.js",
+    "runtime-main.js.map": "/cv-generator-react-functional/static/js/runtime-main.4ece4628.js.map",
+    "static/css/2.63fc35d0.chunk.css": "/cv-generator-react-functional/static/css/2.63fc35d0.chunk.css",
+    "static/js/2.f5147be0.chunk.js": "/cv-generator-react-functional/static/js/2.f5147be0.chunk.js",
+    "static/js/2.f5147be0.chunk.js.map": "/cv-generator-react-functional/static/js/2.f5147be0.chunk.js.map",
+    "index.html": "/cv-generator-react-functional/index.html",
+    "precache-manifest.98ebdc0f9ae2fd4e685d4875db913533.js": "/cv-generator-react-functional/precache-manifest.98ebdc0f9ae2fd4e685d4875db913533.js",
+    "service-worker.js": "/cv-generator-react-functional/service-worker.js",
+    "static/css/2.63fc35d0.chunk.css.map": "/cv-generator-react-functional/static/css/2.63fc35d0.chunk.css.map",
+    "static/js/2.f5147be0.chunk.js.LICENSE.txt": "/cv-generator-react-functional/static/js/2.f5147be0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ece4628.js",
+    "static/css/2.63fc35d0.chunk.css",
+    "static/js/2.f5147be0.chunk.js",
+    "static/js/main.487eb125.chunk.js"
+  ]
+}
