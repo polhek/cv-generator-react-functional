@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import 'bootswatch/dist/darkly/bootstrap.min.css';
+import General from './components/General';
+import Container from 'react-bootstrap/Container';
+import Navigation from './components/Navigation';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import EducationEntries from './components/EducationEntries';
+import PracticalEntries from './components/PracticalEntries';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation></Navigation>
+      <Container>
+        <Col>
+          <Card style={{ marginTop: '10px' }}>
+            <Card.Body>
+              <Card.Title>
+                <h3>General Info</h3>
+              </Card.Title>
+              <General />
+            </Card.Body>
+          </Card>
+          <EducationEntries />
+        </Col>
+        <Col>
+          <PracticalEntries />
+        </Col>
+      </Container>
+    </>
   );
 }
 
